@@ -1,0 +1,11 @@
+id = "ocamllex"
+name = "OCamllex"
+version = "0.0.1"
+schema_version = 1
+authors = ["Matthew Else <matthewelse1997@gmail.com>"]
+description = "Ocamllex language support for Zed"
+repository = "https://github.com/matthewelse/zed-ocamllex"
+
+[grammars.ocamllex]
+repository = "https://github.com/314eter/tree-sitter-ocamllex"
+commit = "4b9898ccbf198602bb0dec9cd67cc1d2c0a4fad2"
